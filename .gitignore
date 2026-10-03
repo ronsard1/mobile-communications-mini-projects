@@ -4,3 +4,11 @@ __pycache__/
 .venv/
 .DS_Store
 ~$*.docx
+
+# generated when the scripts run
+figures/
+results_*
+
+# the written report is submitted separately, not on GitHub
+*.docx
+*.pdf
