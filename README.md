@@ -1,6 +1,6 @@
 # Mobile Communications: Mini Projects (Unit 1)
 
-Python simulations and reports for the Unit 1 lab manual (University of Rwanda, Computer and Software Engineering).
+Python simulations for the Unit 1 lab manual (University of Rwanda, Computer and Software Engineering).
 
 | Project | Topic | Folder |
 |---|---|---|
@@ -25,7 +25,7 @@ python Mini_Project_1_3_0G_6G/recommender.py                     # runs the 8 te
 python Mini_Project_1_3_0G_6G/recommender.py "your requirement"   # try your own
 ```
 
-Each script saves its charts into a `figures/` folder next to it. Printed results are saved in `results_1_1.txt`, `results_1_2.txt` and `test_results.txt`.
+Mini Projects 1.1 and 1.2 save their charts into a `figures/` folder next to the script and print their results to the console. The recommender prints its test results to the console.
 
 ## Key results
 
@@ -50,11 +50,9 @@ Mobile_Communications_Mini_Projects/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── Mini_Project_1_1_Link_Budget/   script, figures/, results_1_1.txt, report (pdf + docx)
-├── Mini_Project_1_2_FDD_TDD/       script, figures/, results_1_2.txt, report (pdf + docx)
-└── Mini_Project_1_3_0G_6G/         recommender.py, test_results.txt, fact_check_table.pdf, report (pdf + docx)
+├── Mini_Project_1_1_Link_Budget/   mini_project_1_1.py
+├── Mini_Project_1_2_FDD_TDD/       mini_project_1_2.py
+└── Mini_Project_1_3_0G_6G/         recommender.py
 ```
 
-## Note on report length
-
-Mini Project 1.1 asks for a **half-page** written analysis. `short_analysis_1_1.pdf` in that folder is the half-page write-up that matches the requirement; `report_1_1.pdf` is a longer, more detailed version with the full lab-task breakdown and embedded figures, kept as a reference. Submit `short_analysis_1_1.pdf` if your lecturer wants the exact length; submit both if more detail is welcome. Mini Projects 1.2 and 1.3 allow 1-2 pages and their `report_1_x.pdf` files fit that.
+The written report is submitted separately and is not part of this repository.
